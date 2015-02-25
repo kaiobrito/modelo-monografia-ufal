@@ -1,0 +1,42 @@
+%
+% Documento: FOLHA DE ROSTO
+%
+
+\makeatletter
+\begin{folhaderosto}
+	\thispagestyle{empty}%limpa estilo da pagina
+	
+    \begin{center}
+    
+		\imprimirnomeautor\\
+		\vspace*{8.2 cm}%Espaço entre linhas
+		\imprimirtitulotb\\
+		
+    \end{center}
+	
+	\vspace*{0.35 cm}%Espaçamento entre linhas
+		    \large%tamanho da fonte 
+    		\hfill%Estica horizontamente  com espaços
+	    	\begin{minipage}{8 cm}%Minipagina
+	    		\begin{small} %Muda tamanho da fonte
+	    		\setlength{\baselineskip}{0.7\baselineskip}
+				
+		    	{Monografia apresentada como requisito parcial para obtenção do grau de
+		    	{\imprimirgrau } em {\imprimirprograma } da {\imprimirinstituicao}{ - }{\imprimirabreviatura},
+		    	{\imprimirdepartamento}.}\\{
+		    	}\\Orientador: {\imprimirtitulacaoorientador }{ }{\imprimirorientador}
+				
+				
+				\end{small} %Muda tamanho da fonte
+		    \end{minipage}%%Minipagina
+		    	
+		    \vspace*{10 cm}%Espaçamento entre linhas
+		    
+		    \begin{center} %Alinhamento centralizado
+		    	\normalsize %Muda tamanho da fonte
+	    		\imprimirlocal\\
+	    		\imprimirdata
+	    	\end{center}%Alinhamento centralizado
+
+\end{folhaderosto}
+\makeatother
