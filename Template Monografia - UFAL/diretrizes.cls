@@ -61,8 +61,8 @@
     \renewcommand{\listtablename}{LISTA DE TABELAS}
     % Ajusta nomes usados com a macro \autoref
     \renewcommand{\pageautorefname}{p\'agina}
-    \renewcommand{\sectionautorefname}{SE{\C C}\~AO}
-    \renewcommand{\subsectionautorefname}{SUBSE{\C C}\~AO}
+    \renewcommand{\sectionautorefname}{SE{\c C}\~AO}
+    \renewcommand{\subsectionautorefname}{SUBSE{\c C}\~AO}
     \renewcommand{\subsubsectionautorefname}{Subse{\c c}\~ao}
     \renewcommand{\paragraphautorefname}{Subse{\c c}\~ao}
 }
